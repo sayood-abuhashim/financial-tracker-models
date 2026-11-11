@@ -1,2 +1,14 @@
-# financial-tracker-models
-Optional on-device model files for Financial Tracker (Gemma, under the Gemma Terms of Use).
+# Financial Tracker models
+
+Optional on-device model files that Financial Tracker downloads only when a person asks for them on the Mentor screen.
+No code, data or user information is kept here.
+
+Gemma 3 1B IT (int4, MediaPipe .task) for Financial Tracker's optional offline Mentor model.
+
+Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms.
+Use of Gemma is subject to the Gemma Prohibited Use Policy at ai.google.dev/gemma/prohibited_use_policy, which applies to
+everyone who receives these files.
+
+The file is unmodified. It is published in 6 pieces only so the app can download, resume and check it on a phone:
+joining gemma3-1b-it-int4.task.part01, gemma3-1b-it-int4.task.part02, gemma3-1b-it-int4.task.part03, gemma3-1b-it-int4.task.part04, gemma3-1b-it-int4.task.part05, gemma3-1b-it-int4.task.part06 in order gives gemma3-1b-it-int4.task byte for byte
+(554661243 bytes, SHA-256 e3d981c01aeaaac69a84ffa0d4be13281b3176731063f1bea1c9fe6887bd9dee), as published by Google at huggingface.co/litert-community/Gemma3-1B-IT.
